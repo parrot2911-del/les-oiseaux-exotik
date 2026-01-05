@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WatchApp | Les Oiseaux Exotik</title>
+  <meta name="description" content="Regardez nos vidéos sur les oiseaux exotiques – Les Oiseaux Exotik" />
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+  <!-- Header -->
+  <header class="bg-green-700 text-white p-4 shadow">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold">🐦 Les Oiseaux Exotik – WatchApp</h1>
+      <a href="/" class="text-sm underline">Retour au site</a>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main class="max-w-6xl mx-auto p-4 grid grid-cols-1 lg:grid-cols-3 gap-6">
+
+    <!-- Video Player -->
+    <section class="lg:col-span-2 bg-white rounded-2xl shadow p-4">
+      <h2 class="text-lg font-semibold mb-3">Vidéo en cours</h2>
+      <div class="aspect-video w-full">
+        <iframe
+          class="w-full h-full rounded-xl"
+          src="https://www.youtube.com/embed?listType=user_uploads&list=lesoiseauxexotiques221"
+          title="Les Oiseaux Exotik"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </section>
+
+    <!-- Playlist / Channel -->
+    <aside class="bg-white rounded-2xl shadow p-4">
+      <h3 class="text-lg font-semibold mb-3">Notre chaîne YouTube</h3>
+      <p class="text-sm mb-4">Découvrez nos vidéos sur l’élevage et la vente d’oiseaux exotiques.</p>
+      <a
+        href="https://youtube.com/@lesoiseauxexotiques221"
+        target="_blank"
+        class="block text-center bg-red-600 text-white py-2 rounded-xl font-medium hover:bg-red-700 transition"
+      >
+        ▶ Voir sur YouTube
+      </a>
+    </aside>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-300 text-center p-4 mt-10">
+    <p class="text-sm">© 2026 Les Oiseaux Exotik – Tous droits réservés</p>
+  </footer>
+
+</body>
+</html>
